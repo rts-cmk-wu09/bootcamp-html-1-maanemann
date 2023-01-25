@@ -7,9 +7,12 @@
     <title>bootcamp1 - hans</title>
     <style>
         /* Håber det er ok jeg laver lidt styling, selvom det ikke var opgaven */
+        :root {
+            --darkbrown: rgb(60, 51, 50);
+        }
         body {
             color: bisque;
-            background-color: rgb(60, 51, 50);
+            background-color: var(--darkbrown);
             margin: 5vw;
         }
         img {
@@ -22,6 +25,12 @@
         }
         td {
             border: 1px solid;
+        }
+        footer {
+            color: var(--darkbrown);
+            background-color: bisque;
+            margin-top: 3rem;
+            padding: 1rem;
         }
     </style>
 </head>
@@ -71,5 +80,6 @@
             </table>
         </article>
     </section>
+    <footer>Hov, det er også vigtigt at have en footer</footer>
 </body>
 </html>
